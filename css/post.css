@@ -5,15 +5,22 @@
 }
 .blogText {
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+     margin: 40px;
 }
 .blogAuthor {
     padding: 0px 0px 0px 10px;
     font-family: 'Niconne', cursive;
     font-size: 30px;
+    margin-left: 30px;
 }
 .blogContent{
 
+}
+#blogTitleNew {
+	margin-left: 550px;
+}
+#blogBody {
+	text-align: justify;
 }
 .modal {
   display: none; 
@@ -99,10 +106,10 @@ label {
 }
 input {
     padding: 13px;
-    background-color: #ddd;
+    background-color: #F5F5F5;
     width: 90%;
     border: none;
-} 
+}  
 #signInModalButton {
     background-color: #00cc66;
     color: white;
@@ -115,33 +122,21 @@ input {
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-}  
+}
 #tagSignUp {
     cursor: pointer;
     text-align: center;
 }     
 a {
     text-decoration: none;
-} 
+}     
 #signUpModalButton {
     background-color: #00cc66;
     color: white;
     padding: 13px;
     width: 99%;
     border: none;
-}
-#blogTitleNew {
-	margin-left: 550px;
-}
-#blogBody {
-	text-align: justify;
-}
-.blogText {
-	margin: 40px;
-}
-.blogAuthor {
-	margin-left: 30px;
-}
+} 
 #editButton {
 	margin-right: 40px;
 	padding: 10px 25px;
@@ -149,13 +144,45 @@ a {
 	background-color: #ff0066;
 	font-weight: bold;
 	cursor: pointer;
+	box-shadow: 2px 2px 2px grey;
 }
 #likeButton {
-	margin-right: 1200px;
+	margin-right: 1180px;
 	padding: 10px 35px;
 	border: none;
 	border-radius: 5px;
 	background-color: #ff0066;
 	font-weight: bold;
 	cursor: pointer;
+	box-shadow: 2px 2px 2px grey;
+
+}
+#likeText {
+	margin-left: 40px;
+}
+#userComments {
+	width: 600px;
+	height: 80px;
+	margin-left: 40px;
+}
+#commentButton {
+	margin-right: 1180px;
+	padding: 10px 25px;
+	border: none;
+	background-color: #ff0066;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 2px 2px 2px grey;
+}
+#allComments {
+	font-weight: bold;
+	margin-left: 40px;
+}
+#commentContainer {
+	background-color: lightgrey;
+	padding: 10px;
+	margin: 5px;
+	margin-left: 40px;
+	color: black;
+	width: 600px;
 }

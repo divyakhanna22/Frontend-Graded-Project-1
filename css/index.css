@@ -48,7 +48,7 @@ body{
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
-  animation-duration: 0.4s
+  animation-duration: 0.4s;
 }
 .signup-modal-content {
   position: relative;
@@ -61,7 +61,7 @@ body{
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
-  animation-duration: 0.4s
+  animation-duration: 0.4s;
 }
 .close {
   color: grey;
@@ -108,17 +108,10 @@ label {
 }
 input {
 	padding: 13px;
-	background-color: #ddd;
+	background-color: #F5F5F5;
 	width: 90%;
 	border: none;
 }  
-#signInModalButton {
-	background-color: #00cc66;
-	color: white;
-	padding: 13px;
-	width: 99%;
-	border: none;
-} 
 #tag {
 	text-align: center;
 	font-size: 17px;
@@ -131,11 +124,38 @@ input {
 }     
 a {
 	text-decoration: none;
-}     
+}   
+#signInModalButton {
+  background-color: #00cc66;
+  color: white;
+  padding: 13px;
+  width: 99%;
+  border: none;
+}   
 #signUpModalButton {
 	background-color: #00cc66;
 	color: white;
 	padding: 13px;
 	width: 99%;
 	border: none;
-}                
+}     
+#createPostModalButton {
+  background-color: #00cc66;
+  color: white;
+  padding: 13px;
+  width: 99%;
+  border: none;
+}
+.create-post-modal-content {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  border: none;
+  width: 30%;
+  height: 65%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}           

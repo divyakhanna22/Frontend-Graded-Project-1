@@ -28,6 +28,21 @@ window.onclick = function(event) {
   }
 }
 
+var cp_modal = document.getElementById("myCreatePostModal");
+var cp_btn = document.getElementById("createPostModal");
+var cp_span = document.getElementsByClassName("close")[2];
+cp_btn.onclick = function() {
+  cp_modal.style.display = "block";
+}
+cp_span.onclick = function() {
+  cp_modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if(event.target == cp_modal) {
+    cp_modal.style.display = "none";
+  }
+}
+
 var switch_modal = document.getElementById("tagSignUp");
 switch_modal.onclick = function() {
 	si_modal.style.display = "none";
